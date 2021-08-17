@@ -2,6 +2,37 @@
     box-sizing: border-box;
 
 }
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 40px;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline;
+    justify-content: space-around;
+    background-color: orangered;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    padding: 5px;
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
+}
 
 header {
     display: flex;
@@ -15,6 +46,7 @@ header {
 h1, h2 {
     text-align: center;
     margin-top: 10px;
+    background-color: white;
 }
 
 p {
@@ -23,21 +55,40 @@ p {
     font-weight: 700;
     line-height: 1
 }
-
-#My-Portfolio {
-    position: relative;
-    display:inline-block;
-    justify-content: center;
-    align-items: center;
-    width: 40%
-
-}
-
-
 #first-project {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    width: 75%
+    position: relative;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
+#first-project img {
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+}
+
+#other-projects {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 33%;
+    padding: 0;
+    margin: 0;
+    text-align: center; 
+}
+
+#other-projects {
+    display: flex;
+    width: 33%;
+    height: 80%;
+}
+
+
+#project-title  {
+    position: absolute;
+    text-align: center;
+    background-color: orangered;
+    
+}
