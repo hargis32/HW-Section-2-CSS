@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-
 }
 nav {
     display: flex;
@@ -38,15 +37,21 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../images/cooking-background.jpg);
+    background: url(../images/matrix.jpg);
     background-repeat: no-repeat;
     background-size: 100%
 }
 
-h1, h2 {
+h1 {
+    
     text-align: center;
     margin-top: 10px;
-    background-color: white;
+    background-color: orangered;
+}
+
+h2 {
+    text-align: center;
+
 }
 
 p {
@@ -57,33 +62,42 @@ p {
 }
 #first-project {
     position: relative;
-    padding: 0;
-    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
 #first-project img {
-    margin-left:auto;
-    margin-right: auto;
-    display: block;
+    width: 80%
 }
 
-#other-projects {
-    position: relative;
+.project-titles {
+    position:absolute;
+    top: -20px;
+    background-color: orangered;
+}
+
+.other-projects {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    width: 33%;
-    padding: 0;
-    margin: 0;
     text-align: center; 
 }
 
-#other-projects {
+.other-projects a {
     display: flex;
-    width: 33%;
-    height: 80%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 400px
 }
+.other-projects img {
+  width: 60%;
+  height: 80%;
+  flex: 0 1 auto; 
+}
+
+
 
 
 #project-title  {
@@ -91,4 +105,36 @@ p {
     text-align: center;
     background-color: orangered;
     
+}
+
+#My-Contact-Info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 40px;
+}
+
+#My-Contact-Info ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#My-Contact-Info ul li {
+    display: inline;
+    justify-content: space-around;
+    background-color: orangered;
+}
+
+#My-Contact-Info ul li a {
+    display: block;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    padding: 5px;
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
 }
