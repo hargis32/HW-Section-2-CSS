@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-nav {
+/* nav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,15 +14,15 @@ nav ul {
     margin: 0;
     padding: 0;
     
-}
+} */
 
-nav ul li {
+/* nav ul li {
     display: inline;
     justify-content: space-around;
     background-color: orangered;
-}
+} */
 
-nav ul li a {
+/* nav ul li a {
     display: block;
     color: white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -31,13 +31,13 @@ nav ul li a {
     margin: 15px;
     text-align: center;
     text-decoration: none;
-}
+} */
 
 header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../images/matrix.jpg);
+    /* background: url(../images/matrix.jpg); */
     background-repeat: no-repeat;
     background-size: 100%
 }
@@ -46,7 +46,7 @@ h1 {
     
     text-align: center;
     margin-top: 10px;
-    background-color: orangered;
+    /* background-color: orangered; */
 }
 
 h2 {
@@ -60,7 +60,7 @@ p {
     font-weight: 700;
     line-height: 1
 }
-#first-project {
+/* #first-project {
     position: relative;
     display: flex;
     justify-content: center;
@@ -70,9 +70,9 @@ p {
 
 #first-project img {
     width: 80%
-}
+} */
 
-.project-titles {
+/* .project-titles {
     position:absolute;
     top: -20px;
     background-color: orangered;
@@ -82,9 +82,9 @@ p {
     display: flex;
     justify-content: center;
     text-align: center; 
-}
+} */
 
-.other-projects a {
+/* .other-projects a {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -95,17 +95,17 @@ p {
   width: 60%;
   height: 80%;
   flex: 0 1 auto; 
-}
+} */
 
 
 
 
-#project-title  {
+/* #project-title  {
     position: absolute;
     text-align: center;
     background-color: orangered;
     
-}
+} */
 
 #My-Contact-Info {
     display: flex;

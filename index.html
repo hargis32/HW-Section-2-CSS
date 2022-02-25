@@ -1,59 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <link rel="stylesheet" href="Assets\css\style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="Assets\css\style.css" />
     <title>Austin Pratt Developer Portfolio</title>
-</head>
-<body>
-    <header id="background-img">
-       <div>
-        <h1>Austin Pratt</h1>
-        <h2>Developer in Training</h2>
-       </div>
-        
-        
+  </head>
+  <body>
+    <header class="bg-secondary">
+      <div>
+        <h1 class="text-dark">Austin Pratt</h1>
+        <h2 class="text-dark">Developer in Training</h2>
+      </div>
     </header>
-    <nav class=navbar>
-        <ul>
-            <li><a href="#My-Story">My Story</a></li>
-            <li><a href="#My-Portfolio">My Portfolio</a></li>
-            <li><a href="#My-Contact-Info">My Contact Info</a></li>
+    
+      <nav class="navbar">
+        <div class="container-fluid bg-dark">
+        <ul class="nav justify-content-end">
+          <li class="nav-item"><a class="nav-link text-light" href="#My-Story">My Story</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="#My-Portfolio">My Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="#My-Contact-Info">My Contact Info</a></li>
         </ul>
-    </nav>
+    </div>
+      </nav>
+    
     <main>
-        <section id="My-Story">
-            <h2>My Story</h2>
-            <p>My name is Austin Pratt, and I am a aspiring Web Developer.</p>
-            <p>With over 10 years of experience in every facet of the restaurant industry, I understand the importance of delivering a complete product to the end user.</p>
-            <p>I intend to utilize my attention to detail in my future career in web development, meticulously ensuring that every product is as polished as it can be.</p>
+      <div class="container">
+        <section class="row" id="My-Story">
+          <h2>My Story</h2>
+          <p>My name is Austin Pratt, and I am a aspiring Web Developer.</p>
+          <p>
+            With over 10 years of experience in every facet of the restaurant
+            industry, I understand the importance of delivering a complete
+            product to the end user.
+          </p>
+          <p>
+            I intend to utilize my attention to detail in my future career in
+            web development, meticulously ensuring that every product is as
+            polished as it can be.
+          </p>
         </section>
+      </div>
+      <div class="container mb-5" id="My-Portfolio">
+        <h2>Portfolio</h2>
+        <div class="row">
+          <div class="col-4" id="first-project">
+            <p class="project-titles">NBA: When and Where</p>
+            <a href="https://github.com/hargis32/Project-1-NBA-Schedule-Watch">
+              <img src="Assets\images\project-1.png" class="img-fluid"
+            /></a>
+          </div>
+          <div class="col-4 other-projects">
+            <p class="project-titles">Work Day Scheduler</p>
+            <a href="https://github.com/hargis32/HW-Section-5-WorkDayScheduler"
+              ><img src="./Assets\images\05-third-party-apis-homework-demo.gif" class="img-fluid"
+            /></a>
+          </div>
+           <div class="col-4">
+            <p class="justify-content-center project-titles">Password Generator</p>
+            <a href="https://github.com/hargis32/HW-Section-3-Java"
+              ><img src="./Assets\images\03-javascript-homework-demo.png" class="img-fluid"
+            /></a>
+          </div>
+        </div>
+      </div>
 
-        <section id="My-Portfolio">
-            <h2>Portfolio</h2>
-            <div id="first-project">
-                <a href="https://github.com/hargis32/Project-1-NBA-Schedule-Watch">
-                <img src="Assets\images\project-1.png"></a>
-                <div class="project-titles">Code Refactor</div>
-            </div>
-            <div class="other-projects">
-                <a href="https://github.com/hargis32/HW-Section-5-WorkDayScheduler"><img src="./Assets\images\05-third-party-apis-homework-demo.gif"></a>
-                <div class="project-titles">Upcoming Project</div>
-                <a href="https://github.com/hargis32/HW-Section-3-Java"><img src="./Assets\images\03-javascript-homework-demo.png"></a>
-            </div>
-        </section>
-
-        <section id="My-Contact-Info">
-            <ul>
-                <li><a href="https://github.com/hargis32">Github</a></li>
-                <li><a href="mailto: hargis32@gmail.com">Email</a></li>
-                <li><a href="https://www.linkedin.com/in/austin-pratt-887273206">Linkedin</a></li>
-                <li><a href="C:\Users\hargi\code\Homework\HW-Section-2-CSS\Assets\images\Austin Pratt Resume (1) (3).pdf">Resume</a></li>
-            </ul>
-        </section>
+      <section id="My-Contact-Info">
+        <ul>
+          <li><a href="https://github.com/hargis32">Github</a></li>
+          <li><a href="mailto: hargis32@gmail.com">Email</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/austin-pratt-887273206"
+              >Linkedin</a
+            >
+          </li>
+          <li>
+            <a
+              href="C:\Users\hargi\code\Homework\HW-Section-2-CSS\Assets\images\Austin Pratt Resume (1) (3).pdf"
+              >Resume</a
+            >
+          </li>
+        </ul>
+      </section>
     </main>
-
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
